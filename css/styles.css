@@ -1,4 +1,116 @@
+html {
+	font-family: SansSerif;
+}
 
-*{
+* {
 	border: 1px solid gray;
+}
+
+.media-logo, .employer-icon {
+	display: inline-flex;
+}
+.btn {
+	text-decoration: none;
+	background: #6fbbb1;
+	font-style: italic;
+	padding: .8%;
+	color: white;
+	border-radius: 10%;
+
+}
+.l-header-logo img {
+	float: left;
+	margin: 2% 1% 0% 15%;
+	height: 200%;
+}
+
+.l-header-nav li a {
+	color: white;
+}
+
+.l-main {
+	background: #39472e;
+}
+.l-header-nav-secondary li {
+	float: right;
+	display: inline;
+	list-style-type: none;
+	border-color: #39473e;
+
+}
+
+.l-header-nav-secondary li a {
+	color: lightgray;
+}
+.whitebox .contact-block {
+	background-color: #F4F4F4;
+	padding: 25px;
+	width: 94%;
+	border: 1px solid #D5D5D5;
+	border-bottom: 2px solid #D5D5D5
+}
+
+@media (min-width: 1040px) {
+	.graybox .contact-block {
+		padding: 25px;
+	}
+}
+
+.graybox .contact-block p {
+	margin: 0;
+	padding-bottom: 30px;
+}
+.graybox .contact-block.rfi-both p {
+	padding-bottom: 20px;
+}
+
+.graybox .contact-block button {
+	font-size: 17px;
+	width: 100%;
+	min-width: 0;
+}
+
+@media (max-width: 1015px) {
+	.graybox .contact-block button {
+		font-size: 16px;
+	}
+}
+
+.graybox .contact-block input {
+	width: 100%;
+	margin-bottom: 10px;
+	height: 50px;
+	font-style: italic;
+	font-size: 16px;
+	padding-left: 8px;
+	outline: none;
+}
+
+.graybox .contact-block .half-width {
+	width: 48%;
+}
+
+.graybox .contact-block label {
+	display: none;
+}
+
+.graybox .contact-block button,
+.graybox .contact-block a.btn {
+	margin: 0 auto 10px;
+}
+
+.graybox .contact-block button:active,
+.graybox .contact-block a.btn:active {
+	border: none;
+	box-shadow: none;
+	margin: 0 auto 12px;
+}
+
+.graybox .contact-block img.box-icon {
+	vertical-align: middle;
+	margin-left: -14px;
+	margin-right: 6px;
+}
+.studentstories-container {
+	overflow: hidden;
 }
